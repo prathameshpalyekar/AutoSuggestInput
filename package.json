@@ -1,0 +1,19 @@
+{
+  "name": "auto-suggest-input",
+  "version": "1.0.0",
+  "description": "Input field which suggests option from the data provided",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathameshpalyekar/AutoSuggestInput.git"
+  },
+  "author": "prathamesh palyekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prathameshpalyekar/AutoSuggestInput/issues"
+  },
+  "homepage": "https://github.com/prathameshpalyekar/AutoSuggestInput#readme"
+}
