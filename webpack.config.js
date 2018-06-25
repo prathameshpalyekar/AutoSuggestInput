@@ -2,7 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: ['./src/main.jsx'],
     output: {
         path: path.resolve(__dirname),
         filename: 'index.js',
@@ -10,7 +10,7 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.js$/,
+            test: /\.jsx$/,
             include: path.resolve(__dirname, 'src'),
             exclude: /(node_modules|bower_components|build)/,
             use: {
