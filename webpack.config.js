@@ -12,7 +12,7 @@ module.exports = {
         rules: [{
             test: /\.jsx$/,
             include: path.resolve(__dirname, 'src'),
-            exclude: /(node_modules|bower_components|build)/,
+            exclude: /(node_modules|build)/,
             use: {
               loader: 'babel-loader',
               options: {
